@@ -24,7 +24,7 @@ countEveryEven(10) // logs 2 4 6 8 10
 countEveryOdd(10) // logs 1 3 5 7 9
 ```
 
-##### Bonus 
+### Bonus 
 6. Write a fucntion named `countEvens` that takes in an array of integers and returns the number of integers in the array that are even numbers. 
 ```
 countEven([1,2,3,4,5,6,7,8,9,12]) // returns 5
