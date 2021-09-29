@@ -1,5 +1,5 @@
 //1
-function countToFifty(){
+function countToTen(){
   
 }
 
@@ -9,13 +9,17 @@ function countFromOne(){
 }
 
 //3
-function threeAndFiveInFifty(){
+function countEveryEven(){
   
 }
 
 //4
-function threeAndFive(){
+function countEveryOdd(){
   
 }
 
+//5 
+function countEvens(){
+  
+}
 
