@@ -10,19 +10,24 @@
 
 ## Code Problems
 
-1. Write a function named `countToFifty` that console.logs all the integers from 1 to 50. 
+1. Write a function named `countToTen` that console.logs all the integers from 1 to 10. 
 
 2. Write a function named `countFromOne` that takes in an integer argument, and console.logs all the integers from 1 up to the given integer. 
 
-3. Write a function named `threeOrFiveInFifty` that console.logs all the integers from 1 to 50 that are divisible by 3 or 5.
-
-4. Write a function named `threeOrFive` that takes in an integer argument, and console.logs all the integers that are divisible by 3 or 5, from 1 up to the given integer. 
-
-#### Bonus
-
-5. Write a fuction `triple` that takes an array of integers and returns a new array of integers with triple the value.
+3. Write a function named `countEveryEven` that takes in an integer argument, and console.logs all the *even* integers from 1 up to the given integer, including the given integer. 
 ```
-triple([1, 2, 3]) // returns [3,6,9]
-triple([5, 20, 27, 36,]) // returns [15, 60, 81, 108]
+countEveryEven(10) // logs 2 4 6 8 10
 ```
 
+4. Write a function named `countEveryOdd` that takes in an integer argument, and console.logs all the *odd* integers from 1 up to the given integer, including the given integer. 
+```
+countEveryOdd(10) // logs 1 3 5 7 9
+```
+
+##### Bonus 
+6. Write a fucntion named `countEvens` that takes in an array of integers and returns the number of integers in the array that are even numbers. 
+```
+countEven([1,2,3,4,5,6,7,8,9,12]) // returns 5
+countEven([1,2,22,204]) // returns 3
+countEven([1,3,7,17,19]) // returns 0
+```
